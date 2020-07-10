@@ -22,8 +22,8 @@ CREATE TABLE likes (
 
 
 INSERT INTO users (name)
-VALUES ("David");
+VALUES ("Ada");
 
 INSERT INTO products (name)
-VALUES ("Apple");
+VALUES ("Orange");
 

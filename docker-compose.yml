@@ -20,7 +20,7 @@ services:
       # Where our data will be persisted
     volumes:
       # load the database source data
-      - ./test.sql:/docker-entrypoint-initdb.d/dump.sql
+      - ./dump.sql:/docker-entrypoint-initdb.d/dump.sql
       - my-db:/var/lib/mysql
 # Names our volume
 volumes:
