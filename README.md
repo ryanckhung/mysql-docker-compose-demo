@@ -1,10 +1,29 @@
-To start
+1. To start (with a .sql file loaded)
 
-> docker-compose up -d
+### `docker-compose up -d`
 
-To stop
+2. login in to the newly created mysql container and check the db content
 
-> docker-compose down
+### `docker exec -it <container> bash`
 
-Load the database source by createing the dump.sql
-and include this in the docker-compose.yml volumes
+### `mysql -u root -p`
+
+### `password`
+
+### `show databases;`
+
+### `use test;`
+
+### `show tabels;`
+
+### `select * from users;`
+
+3. or use thrid party UI tool, login with root/password @ 127.0.0.1:33060
+
+4. To stop
+
+### `docker-compose down`
+
+### `docker stop <container>`
+
+### `docker rm <container>`
